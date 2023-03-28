@@ -149,7 +149,7 @@ function splitContentIntoParts(str: string, textarea: HTMLTextAreaElement): stri
   const ret = divideString(str, diviedParts)
   if (diviedParts > 1) {
     textarea.value =
-      "I'll share you with an article, I'll continue to input util I say FINISH." +
+      `I'll share you with an article, I'll continue to input until I say "FINISH".` +
       'You should say "OK" before I say "FINISH". NO EXTRA EXPLAINATION!'
   }
   return ret
