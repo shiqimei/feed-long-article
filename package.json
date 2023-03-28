@@ -1,7 +1,7 @@
 {
   "name": "feed-long-article",
   "displayName": "Feed Long Article",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A chrome extension to help feed ChatGPT a long article in steps.",
   "author": "shiqi.mei",
   "scripts": {
